@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2AFED985-3A1D-4E92-B2BB-250F4F21279E}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Workshop</RootNamespace>
+    <AssemblyName>FOPCSWP1</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Workshop.no28</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ISS.RV.LIB">
+      <HintPath>.\ISS.RV.LIB.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="no1.cs" />
+    <Compile Include="no10.cs" />
+    <Compile Include="no11.cs" />
+    <Compile Include="no12.cs" />
+    <Compile Include="no13.cs" />
+    <Compile Include="no14.cs" />
+    <Compile Include="no15.cs" />
+    <Compile Include="no16.cs" />
+    <Compile Include="no17.cs" />
+    <Compile Include="no18.cs" />
+    <Compile Include="no19.cs" />
+    <Compile Include="no2.cs" />
+    <Compile Include="no20.cs" />
+    <Compile Include="no21.cs" />
+    <Compile Include="no22.cs" />
+    <Compile Include="no23.cs" />
+    <Compile Include="no24.cs" />
+    <Compile Include="no25.cs" />
+    <Compile Include="no26.cs" />
+    <Compile Include="no27.cs" />
+    <Compile Include="no28.cs" />
+    <Compile Include="no3.cs" />
+    <Compile Include="no4.cs" />
+    <Compile Include="no5.cs" />
+    <Compile Include="no6.cs" />
+    <Compile Include="no7.cs" />
+    <Compile Include="no8.cs" />
+    <Compile Include="no9.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="readme.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

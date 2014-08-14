@@ -1,0 +1,12 @@
+C:\Users\a0132516n\Documents\Visual Studio 2010\Projects\Workshop\Workshop\bin\Debug\Workshop.exe
+C:\Users\a0132516n\Documents\Visual Studio 2010\Projects\Workshop\Workshop\bin\Debug\Workshop.pdb
+C:\Users\a0132516n\Documents\Visual Studio 2010\Projects\Workshop\Workshop\obj\x86\Debug\Workshop.exe
+C:\Users\a0132516n\Documents\Visual Studio 2010\Projects\Workshop\Workshop\obj\x86\Debug\Workshop.pdb
+C:\Users\a0132516n\Downloads\Workshop\Workshop\obj\x86\Debug\Workshop.exe
+C:\Users\a0132516n\Downloads\Workshop\Workshop\obj\x86\Debug\Workshop.pdb
+C:\Users\a0132516n\Downloads\Workshop\Workshop\bin\Debug\Workshop.exe
+C:\Users\a0132516n\Downloads\Workshop\Workshop\bin\Debug\Workshop.pdb
+C:\Users\a0132516n\Downloads\Workshop\Workshop\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\a0132516n\Downloads\Workshop\Workshop\bin\Debug\ISS.RV.LIB.dll
+D:\ISS Workshop\iss-workshop-fopcswp1\Workshop\obj\x86\Debug\Workshop.exe
+D:\ISS Workshop\iss-workshop-fopcswp1\Workshop\obj\x86\Debug\Workshop.pdb
